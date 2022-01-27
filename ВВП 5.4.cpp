@@ -16,25 +16,30 @@ cout << "Координату x2 ";
 cin >> x2;
 cout << "Координату y2 ";
 cin >> y2;
-if(y1>y2) {
+
+if (y1>y2) {
         a=y1-y2;
     } 
 else
+    {
         a=y2-y1;
     }
-if(x1>x2) {
+if (x1>x2) {
         b=x1-x2;
     } 
 else
+    {
         b=x2-x1;
     }
-p=2(a+b)
-s=a*b
+    
+p=2*(a+b);
+s=a*b;
+
 cout <<"Переиметр прямоугольника = " << p <<
 endl;
 cout <<"Площадь прямоугольника = " << s <<
 endl;
 
 
-    return 0;
+   return 0;
 }
